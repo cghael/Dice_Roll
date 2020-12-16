@@ -39,3 +39,36 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.btn {
+  margin-top: 50px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  font-weight: 200;
+  padding: 40px;
+  border-color-hover: ;
+  border-style-hover: solid;
+  border-width-hover: 1;
+  background-color: #4ECCA3;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #4ECCA3;
+  background-image: -webkit-linear-gradient(top, #4ECCA3, #379C7B);
+  background-image: -moz-linear-gradient(top, #4ECCA3, #379C7B);
+  background-image: -ms-linear-gradient(top, #4ECCA3, #379C7B);
+  background-image: -o-linear-gradient(top, #4ECCA3, #379C7B);
+  background-image: -webkit-gradient(to bottom, #4ECCA3, #379C7B);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
